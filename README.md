@@ -67,7 +67,7 @@ Contains event-wise data over 120+ years.
 |----|-------------------------|-----|--------|--------|----------------|
 | 1  | A Dijiang               | M   | 180    | 80     | China          |
 
-**From `events.csv`:**
+**From `athlete_events..csv`:**
 | athlete_id | year | season | city     | sport       | event                  | medal |
 |------------|------|--------|----------|-------------|------------------------|--------|
 | 1          | 1992 | Summer | Barcelona| Basketball  | Men's Basketball       | NA     |
@@ -102,10 +102,10 @@ Tables created:
 
 ### 📁 Folder Structure
 
-| File Name                                 | Description                                                            |
+| File Name                                | Description                                                            |
 |------------------------------------------|------------------------------------------------------------------------|
-| `create_tables.sql`                      | SQL script for creating `athletes` and `events` tables                 |
-| `import_data_instructions.md`            | Guide on importing CSVs into SQL Server                                |
+| `athlete_events.CSV`                     | Data file                                                              |
+| `athletes_CSV`                           | Data file                                                              |
 | `question_01_team_max_gold.sql`          | Team with the most gold medals                                         |
 | `question_02_silver_peak_year.sql`       | Silver medal analysis by team and peak year                            |
 | `question_03_gold_only_players.sql`      | Players who won only gold, never silver or bronze                      |
